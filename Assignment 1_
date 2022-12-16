@@ -1,0 +1,7 @@
+s=input("enter a string")
+n=len(s)
+x=s.upper()
+y=s.lower()
+print(n)
+print(x)
+print(y)
