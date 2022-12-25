@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+new=[]
+for i in l:
+	n=l.count(i)
+	if(n>1):
+		if(new.count(i)==0):
+			new.append(i)
+print(new)
